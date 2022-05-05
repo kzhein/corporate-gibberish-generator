@@ -1,0 +1,55 @@
+{
+  "name": "corporate-gibberish-generator",
+  "displayName": "Corporate Gibberish Generator",
+  "description": "This package help you generate random corporate gibberish which is just like \"Lorem ipusm\", readable but doesn't really make any sense. But better than 'Lorem ipsum', the corporate gibberishes are more impressive.",
+  "publisher": "kzhein",
+  "version": "0.0.1",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kzhein/corporate-gibberish-generator"
+  },
+  "engines": {
+    "vscode": "^1.66.0"
+  },
+  "categories": [
+    "Other"
+  ],
+  "activationEvents": [
+    "onCommand:corporate-gibberish-generator.generateEN",
+    "onCommand:corporate-gibberish-generator.generateMM",
+    "onCommand:corporate-gibberish-generator.generateZG"
+  ],
+  "main": "./extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "corporate-gibberish-generator.generateEN",
+        "title": "Generate Corporate Gibberish in English"
+      },
+      {
+        "command": "corporate-gibberish-generator.generateMM",
+        "title": "Generate Corporate Gibberish in Myanmar (Unicode)"
+      },
+      {
+        "command": "corporate-gibberish-generator.generateZG",
+        "title": "Generate Corporate Gibberish in Myanmar (Zawgyi)"
+      }
+    ]
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "pretest": "npm run lint",
+    "test": "node ./test/runTest.js"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.66.0",
+    "@types/glob": "^7.2.0",
+    "@types/mocha": "^9.1.1",
+    "@types/node": "14.x",
+    "eslint": "^8.14.0",
+    "glob": "^8.0.1",
+    "mocha": "^9.2.2",
+    "typescript": "^4.6.4",
+    "@vscode/test-electron": "^2.1.3"
+  }
+}
