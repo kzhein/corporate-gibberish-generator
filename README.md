@@ -1,4 +1,4 @@
-# Corporate Gibberish Generator README
+# Corporate Gibberish Generator
 
 This is the unofficial VS Code port of Corporate Gibberish Generator Atom package by Sayar Ei Maung. (https://github.com/eimg/corporate-gibberish)
 

@@ -3,7 +3,7 @@
   "displayName": "Corporate Gibberish Generator",
   "description": "This package help you generate random corporate gibberish which is just like \"Lorem ipusm\", readable but doesn't really make any sense. But better than 'Lorem ipsum', the corporate gibberishes are more impressive.",
   "publisher": "kzhein",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/kzhein/corporate-gibberish-generator"
